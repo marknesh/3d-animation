@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgoldenrodyellow;
+    perspective: 1000px;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+    width: 67vw;
+
+}
+
+.card{
+    transform-style: preserve-3d;
+    background-color: whitesmoke;
+    width: 35rem;
+    min-height: 90vh;    
+    padding: 2rem 5rem;
+    box-shadow: 0px 20px 20px rgba(238, 167, 13, 0.836), 0px 0px 40px rgba(238, 167, 13, 0.836);
+    border-radius: 30px;
+}
+
+.audi img{
+    transition: all 0.5s ease-out;
+    width:20rem;
+    border-radius: 30px;
+}
+
+.audi{
+    height: 40vh;
+}
+
+.info h1{
+    transition: all 0.5s ease-out;
+    margin-bottom: 20px;
+    color: rgb(228, 153, 15);
+}
+
+.details li{
+    font-weight: lighter;
+    font: message-box;
+    line-height: 30px;
+    color: #585858;
+    font-size: 19px;
+}
